@@ -24,7 +24,7 @@
   background-color: white;
   text-align: center;
   margin: auto;
-  margin-top: 40px;
+  margin-top: 80px;
   justify-content: center;
 
 } 
@@ -63,7 +63,7 @@
 
 .footer {
   display: grid;
-  margin-top: 30px;
+  margin-top: 80px;
   grid-template-rows: 200px 40px;
   background-color: white;
   font-weight: 300;
