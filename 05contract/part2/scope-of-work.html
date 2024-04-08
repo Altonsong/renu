@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charest="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+<title>Scope of Work</title>
+
+<link rel="stylesheet" href="scope-of-work.css">
+
+<style>
+  .hidden {
+    display: none;
+  }
+
+  .demolishBox {
+  display: flex;
+  flex-wrap: wrap;
+  width: 800px;
+}
+
+/* .itemBox {
+  width: 150px;
+  height: 25px;
+  display: flex;
+  border:1px solid #b0b0b0;
+  align-items: center;
+  justify-content: left;
+} */
+
+.itemBox {
+  width: 150px;
+  min-height: 20px; 
+  display: flex;
+  border: 1px solid #b0b0b0;
+  align-items: center;
+  justify-content: left;
+  /* overflow: hidden; 
+  word-wrap: break-word;  */
+}
+
+
+
+.itemBox p {
+  /* margin: 0;  */
+  padding-left: 5px;
+}
+
+.checkbox {
+  font-size: 15px; 
+  padding-left: 5px;
+}
+
+.red {
+  color: red; 
+}
+
+</style>
+
+</head>
+
+<body>
+  <div class="page">
+    
+    <div class="title">
+      <P>SCHEDULE A</P>
+      <P>WORK TO BE COMPLETED</P>
+    </div>
+
+    <div class="taskArea">
+      <div class="subTitleArea">
+        <p class="">Task 1</p>
+        <p>Preparatory work for contractor to undertake - demolish, removal and disposing of debris for:</p>
+      </div>
+     
+
+      <div class="formArea demolish-kitchen-area">
+
+        <div class="formTitleArea">
+          <p class="formTitle">Kitchen:</p>
+        </div>
+        <div class="demolishBox">
+          <div class="itemBox kitchenDmCabinetry">
+            <p>Cabinetry</p><span class="material-symbols-outlined red checkbox">
+              check_box
+              </span>
+          </div>
+
+          <div class="itemBox kitchenDmCountertop">
+            <p>Countertop</p><span class="material-symbols-outlined checkbox">
+              check_box_outline_blank
+              </span>
+          </div>
+
+          <div class="itemBox kitchenDmBacksplash">
+            <p>Backspalsh</p><span class="material-symbols-outlined checkbox">
+              check_box_outline_blank
+              </span>
+          </div>
+
+          <div class="itemBox kitchenDmSink">
+            <p>Kitchen Sink</p><span class="material-symbols-outlined checkbox">
+              check_box_outline_blank
+              </span>
+          </div>
+
+          <div class="itemBox kitchenDmFaucet">
+            <p>Kitchen Faucet</p><span class="material-symbols-outlined checkbox">
+              check_box_outline_blank
+              </span>
+              <!-- <p>keep faucet in storage room for owner</p> -->
+          </div>
+
+          <div class="itemBox kitchenDmFloor">
+            <p>Floor</p><span class="material-symbols-outlined checkbox">
+              check_box_outline_blank
+              </span>
+          </div>
+
+          <div class="itemBox kitchenDmBaseboard">
+            <p>Baseboard</p><span class="material-symbols-outlined checkbox">
+              check_box_outline_blank
+              </span>
+          </div>
+
+          <div class="itemBox kitchenDmValanceLight">
+            <p>Valance Light</p><span class="material-symbols-outlined checkbox">
+              check_box_outline_blank
+              </span>
+          </div>
+
+          <div class="itemBox kitchenDmCeilingLight">
+            <p>Ceiling Light</p><span class="material-symbols-outlined checkbox">
+              check_box_outline_blank
+              </span>
+          </div>
+
+          <div class="itemBox kitchenDmRange">
+            <p>Range</p><span class="material-symbols-outlined checkbox">
+              check_box_outline_blank
+              </span>
+          </div>
+          
+          <div class="itemBox kitchenDmRefrigerator">
+            <p>Refrigerator</p><span class="material-symbols-outlined checkbox">
+              check_box_outline_blank
+              </span>
+          </div>
+
+          <div class="itemBox kitchenDmDishwasher">
+            <p>Dishwasher</p><span class="material-symbols-outlined checkbox">
+              check_box_outline_blank
+              </span>
+          </div>
+
+          <div class="itemBox kitchenDmHoodFan">
+            <p>Hood Fan</p><span class="material-symbols-outlined checkbox">
+              check_box_outline_blank
+              </span>
+          </div>
+
+          <div class="itemBox kitchenDmCooktop">
+            <p>Cooktop</p><span class="material-symbols-outlined checkbox">
+              check_box_outline_blank
+              </span>
+          </div>
+
+          <div class="itemBox kitchenItemOven">
+            <p>Oven</p><span class="material-symbols-outlined checkbox">
+              check_box_outline_blank
+              </span>
+          </div>
+
+
+        </div>
+
+        <div class="form">
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+  </div>
+  
+
+  <script>
+
+
+      function updateKitchenDemolishArea(checkboxId, areaId, isChecked) {
+        let area = document.querySelector("." + areaId);
+        let span = area.querySelector("span.checkbox");
+
+        // 根据 isChecked 参数来显示或隐藏相应的元素
+        if (isChecked) {
+          area.classList.remove("hidden");
+          span.textContent = "check_box";
+        } else {
+          area.classList.add("hidden");
+          span.textContent = "check_box_outline_blank";
+        }
+      }
+
+
+      
+  </script>
+
+
+</body>
+
+
+</html>
