@@ -29,6 +29,13 @@ const kitchenCabinets = [
     price: "+500",
     detail: "Custom modern design cabinets, Lower &Upper cabinet in Two Tone"
   },
+  {
+    name: "HGLight Grey with Grey Ash",
+    image: "../photos/kitchen/cabinetry/hg-light-grey-grey.png",
+    price: "+600",
+    detail: "Custom modern design cabinets, Lower &Upper cabinet in Two Tone"
+  },
+ 
 ];
 
 const kitchenCountertops = [
