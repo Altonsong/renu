@@ -24,14 +24,6 @@ const addons = [
     isChecked: false,
   },
   {
-    serial: "A4",
-    name: "Exhaust Pipe for Dryer",
-    image: "../photos/addon040406/a4.jpg",
-    detail: "Open and Finish Bulkhead and Add Exhaust for Dryer",
-    price: "2510",
-    isChecked: false,
-  },
-  {
     serial: "A5",
     name: "Laundry Door ",
     image: "../photos/addon040406/a5.jpg",
