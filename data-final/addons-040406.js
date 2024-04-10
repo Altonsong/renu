@@ -47,4 +47,12 @@ const addons = [
     price: "0",
     isChecked: false,
   },
+  {
+    serial: "A7",
+    name: "Add Island in Kitchen",
+    image: "../photos/addon040406/a7.jpg",
+    detail: "With 3 Cabinets(Two Double Door and One Drawer",
+    price: "2440",
+    isChecked: false,
+  },
 ]
