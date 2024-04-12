@@ -27,7 +27,7 @@ const addons = [
   {
     serial: "A4",
     name: "Demolish Wet Wall and Drywall Finish in Main Bathroom",
-    image: "../photos/addons-040412-gaetan/a3.png",
+    image: "../photos/addons-040412-gaetan/a4.png",
     detail: "Demolish extra wet wall and finish by drywall in Ensuite Bathroom",
     price: "1260",
     isChecked: false,
