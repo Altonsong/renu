@@ -220,7 +220,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 dateElement.innerText = "Date: " + dateString;
             }
 
-            currentDate.setDate(currentDate.getDate() + 30);
+            currentDate.setDate(currentDate.getDate() + 10);
             let validUntilString = currentDate.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
 
             let validUntilElement = newWindow.document.querySelector('.validUnitl');
